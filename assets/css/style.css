@@ -1,0 +1,68 @@
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+p{
+    margin: 10px 0px 5px 20px;
+    color: aliceblue;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+#searchbar{
+    float: right;
+}
+
+img{
+    min-width: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    max-width: 300px;
+}
+
+#searchbar {
+    margin-right: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#gif-input {
+    margin-bottom: 10px;
+}
+
+.gif-btn {
+    margin: 10px 10px 10px 10px;
+    background-color: transparent;
+    background-color: rgba(218, 51, 51, 0.863);
+    border: none;
+    font-family: 'Fjalla One', sans-serif;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden; 
+}
+
+.gif-btn:hover{
+    background-color: yellow;
+}
+
+#add-gif:hover{
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 5px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .searchImage {
+        width: 100%;
+       
+    }
+    
+}
+
